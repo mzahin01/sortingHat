@@ -1,6 +1,7 @@
 // ignore_for_file: unused_field, constant_identifier_names
 
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import '../widget/colorized_animated_text.dart';
 import '../widget/scale_animated_text.dart';
@@ -190,9 +191,7 @@ class _SplashScreenViewState extends State<SplashScreenView>
                         tag: 'SplashScreenLogo',
                         child: Image.asset(
                           widget._imageSrc!,
-                          height: (widget._logoSize != null)
-                              ? widget._logoSize!.toDouble()
-                              : 150,
+                          height: (widget._logoSize != null) ? 1100 : 850,
                         ),
                       )
               else

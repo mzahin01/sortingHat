@@ -16,7 +16,7 @@ class _SplashPageState extends State<SplashPage> {
   @override
   void initState() {
     super.initState();
-    Timer(2000.milliseconds, () {
+    Timer(8000.milliseconds, () {
       Get.offNamed(Routes.HOME);
     });
   }
@@ -26,7 +26,7 @@ class _SplashPageState extends State<SplashPage> {
     return SplashScreenView(
       imageSize: 120,
       speed: 50,
-      imageSrc: 'assets/images/loginmainface.png',
+      imageSrc: 'assets/animation/hatt.gif',
       text: 'Max Live',
       textType: TextType.TyperAnimatedText,
       backgroundColor: Colors.white,
