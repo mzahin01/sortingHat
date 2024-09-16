@@ -15,7 +15,7 @@ class SplashViewState extends State<SplashView> {
   @override
   void initState() {
     super.initState();
-    Timer(5000.milliseconds, () {
+    Timer(3500.milliseconds, () {
       Get.offAllNamed(Routes.HOME);
     });
   }
